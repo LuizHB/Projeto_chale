@@ -12,7 +12,7 @@ body{
 }
 
 #container{
-	background: #ede9cc;
+	background: #ede9cc url(https://i.imgur.com/rdKRIfo.png) top center repeat-y;
 	margin: 0 auto;
 	min-width: 740px;
 	max-width: 1180px;
@@ -73,6 +73,7 @@ body{
 
 #menu-locais .locais{
 	float: left;
+	line-height: 2.1em;
 }
 
 a{
@@ -87,18 +88,111 @@ a.reserva{
 	float: right;
 }
 
+ul{
+	list-style: none;
+}
+
+/*barra de navegação vertical*/
+
+#menu{
+	margin-top: 15px;
+}
+
+ul#navegacao{
+	float: left;
+}
+
+ul#navegacao a{
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #6e672c;
+	line-height: 30px;
+}
+
+ul#navegacao a:hover{
+	background: #fdf6be;
+}
+
+.depoimento{
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+
+
+/*area de conteudos*/
+
+#area-principal{
+	background: url(https://i.imgur.com/F18ofFi.png) repeat-x top left;
+	float: left;
+	width: 50%;
+	padding: 15px 0px;
+}
+
+#area-lateral{
+	background: url(https://i.imgur.com/7MZDjTR.png) repeat-x top left;
+	float: right;
+	width: 50%;
+	padding: 20px 0px;
+}
+
+.conteudo{
+	margin: 0 auto;
+	width: 90%;
+
+}
+
+/* formatacao de texto */
+
+h2{
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+
+p{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+/*formatacoes da area lateral */
+
+#beneficios li{
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+}
+
+#beneficios li a img{
+	float: left;
+	margin-right: 8px;
+}
+
+#beneficios li a p{
+	color: #000;
+	font-size: 0.8em;
+}
+
+#beneficios li a h3{
+	font-size: 1em;
+	color: #615b2d;
+	padding: 5px 0;
+	background: url(https://i.imgur.com/Mllgyo1.png) no-repeat right center;
+}
+
+#beneficios li:hover{
+	background: #f6f3d6;
+	cursor: pointer;
+}
 
 /*rodape*/
 
-#container-rodape{
-	background: #294c71;
-	padding: 20px;
+#rodape{
+	background: #fff url(https://i.imgur.com/WY3McuC.png) repeat-x top;
+	padding: 16px;
 	clear: both;
+	color: #7d7640;
 }
 
-#rodape{
-	width: 750px;
-	margin: 0 auto;
-	color: #fff;
-}
 
